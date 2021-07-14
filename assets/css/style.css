@@ -52,7 +52,7 @@
       font-weight: 400;
       font-style: normal;
       font-size: 15px;
-      color: #dddada;
+      color: #065299;
       line-height: 24px;
       background-color:#444141;
    }
@@ -216,7 +216,7 @@
       background: #4272d7 none repeat scroll 0 0;
       border: 2px solid #4272d7;
       border-radius: 0;
-      color: #fff;
+      color: rgb(46, 13, 13);
       cursor: pointer;
       display: inline-block;
       font-size: 13px;
@@ -248,12 +248,12 @@
    .btn.btn-inline {
       background: transparent none repeat scroll 0 0;
       border: 0 none;
-      color: #ffffff;
+      color: #050303;
       padding: 0;
       text-decoration: none;
    }
    .btn.btn-inline:hover {
-      color: #ffffff;
+      color: #291b1b;
       text-decoration: underline;
    }
    .theme-bg {
@@ -668,6 +668,7 @@
     letter-spacing: 2px;
     position: relative;
     padding-bottom: 10px;
+    color: #241616;
 }
 
 .section-title h4:after {
@@ -680,7 +681,7 @@
     width: 50px;
     content:
     "";
-    background: #adadad;
+    background: #706767;
 }
 .item-icon i {
     width: 50px;
@@ -723,7 +724,9 @@
 .project-bg-5 {background-image: url(../img/project_05.jpg);}
 .project-bg-6 {background-image: url(../img/project_06.jpg);}
 .project-bg-7 {background-image: url(../img/project_07.jpg);}
-
+.project-bg-8 {background-image: url(../img/project_07.jpg);}
+.project-bg-9 {background-image: url(../img/project_07.jpg);}
+.project-bg-10 {background-image: url(../img/project_07.jpg);}
 .latest-project-area .section-title h4 {
     color: #fff;
 }
