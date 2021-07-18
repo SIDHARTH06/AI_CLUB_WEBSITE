@@ -129,6 +129,7 @@
    }
    h6 {
       font-size: 16px;
+      color:rgb(53, 16, 16)
    }
    ul {
       margin: 0px;
@@ -668,7 +669,7 @@
     letter-spacing: 2px;
     position: relative;
     padding-bottom: 10px;
-    color: #241616;
+    color: #16a2c5;
 }
 
 .section-title h4:after {
@@ -847,7 +848,7 @@
 .single-choose-item h6 {
     font-size: 16px;
     font-weight: 600;
-    color: #555555;
+    color: #c46a6a;
 }
 
 .single-choose-item h6 i {
@@ -857,7 +858,7 @@
 .single-choose-item p {
     margin: 0;
     font-size: 15px;
-    color: #666666;
+    color: #bd8113;
 }
 
 .single-choose-item {
