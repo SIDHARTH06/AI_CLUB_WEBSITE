@@ -13,6 +13,6 @@ def logout():
 
 @auth.route('/sign-up')
 def signup():
-    return render_template("signup.html")
+    return render_template("logged-in.html")
 
 
