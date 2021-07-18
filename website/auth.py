@@ -2,7 +2,7 @@ from flask import Blueprint,request, render_template
 
 auth = Blueprint('auth',__name__)
 
-@auth.route('/login')
+@auth.route('/login',methods=['post','get'])
 def login():
     name="varun sai"
     return render_template("login.html",text = name)
