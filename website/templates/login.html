@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block title %}Login{%endblock%} {% block content%}
 
-<div class="c">
-<form method="post">
+<div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100vh;" >
+<form method="post" style="width: 50%;">
     <div class="form-group">
       <label for="exampleInputEmail1">Email address</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -11,7 +11,7 @@
       <label for="exampleInputPassword1">Password</label>
       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
     </div>
-    </div>
+
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
