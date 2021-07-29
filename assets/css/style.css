@@ -873,6 +873,10 @@
 /* End Working With Us Area */
 /* Start Carousel Area
 ==================================================*/
+.carousel-area
+{
+    background-color:#fff;
+}
 .blog-carousel.owl-carousel .owl-item img {
     width: 200px;
     display: inline-block;
