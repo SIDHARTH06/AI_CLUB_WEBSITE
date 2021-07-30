@@ -2,6 +2,7 @@
 /**********************************/
 /********** General CSS ***********/
 /**********************************/
+
 *,
 *::before,
 *::after {
@@ -80,6 +81,8 @@ img {
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
+        margin-left:auto;
+        margin-right: auto;
     }
 }
 
@@ -148,20 +151,21 @@ img {
     width: 100%;
     text-align: center;
     padding: 45px 0 30px 0;
+    font-size: 40px;
 }
 
 .section-title::after {
-    position: absolute;
+    position: relative;
     content: "";
     width: 50px;
     height: 5px;
     left: calc(50% - 25px);
-    background: #353535;
+    background: #1b1919;
 }
 
 .section-title h1 {
     color: #353535;
-    font-size: 50px;
+    font-size: 70px;
     letter-spacing: 5px;
     margin-bottom: 5px;
 }
@@ -220,7 +224,7 @@ img {
 }
 
 .team-1 .team-content h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     font-style: italic;
     letter-spacing: 1px;

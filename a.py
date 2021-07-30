@@ -2,9 +2,6 @@
 
 import cv2
 
-cam = cv2.VideoCapture(0)
-print(cam.isOpened())
-cam.release()
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
