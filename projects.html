@@ -79,7 +79,7 @@ li{
 .SG .sgLi{
   min-width: 24%;
   margin: 2% .35%;
-  display: inline-flex;
+  display: inline-block;
 }
 .SG .box{
   width: 100%;
@@ -144,15 +144,10 @@ li{
   color:#c2c7ce;
   
 }
-/* responsive grid*/
-@media (max-width: 970px){
-  .SG .sgLi{width: 180px;}}
-@media (max-width: 425px){
-  .SG .sgLi{width: 100%;}
-}
 </style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #8b9c87;">
     <div class="header-area">
         <div class="container">
             <div class="header-wrapper">
@@ -169,12 +164,12 @@ li{
                     <div class="col-lg-9 text-right d-none d-lg-block">
                         <nav class="menu-wrapper">
                             <ul class="main-menu" id="mobile-menu">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#feature">About Us</a></li>
-                                <li><a href="#portfolio">Our Team</a></li>
-                                <li><a href="#page">Past Events</a></li>
-                                <li><a href="#blog">Testimonials</a></li>
-                                <li><a href="#contact-us">Contact Us</a></li>
+                                <li class="active" style="font-size: large;color: rgb(12, 23, 44);"><a href="index.html">Home</a></li>
+                                <li><a href="index.html" style="font-size: large;color: rgb(12, 23, 44);">About Us</a></li>
+                                <li><a href="team.html" style="font-size: large;color: rgb(12, 23, 44);">Our Team</a></li>
+                                <li><a href="index.html" style="font-size: large;color: rgb(12, 23, 44);">Past Events</a></li>
+                                <li><a href="index.html" style="font-size: large;color: rgb(12, 23, 44);">Testimonials</a></li>
+                                <li><a href="index.html" style="font-size: large;color: rgb(12, 23, 44);">Contact Us</a></li>
                                <!-- <li class="search-trigger d-none d-lg-inline-block"><a href="javascript:void(0)"><i class="fas fa-search"></i></a>
                                 </li>-->
                             </ul>
@@ -183,12 +178,12 @@ li{
                 </div>
                 <br><br>
               </div>
-            <div class="row">
+            
                 <div class="X">
-                    <h1>Our Projects</h1>
+                    <h1>Our Projects</h1><br><br><br>
+                    <div class="row">  
                     
-                    <ul class="SG">
-                      <li class="sgLi">
+                      <li class="col-lg-6 col-sm-12 sgLi">
                         <div class="box">
                         <h3>Multi Task Learning for Self-Driving Cars (Research Project) <br>
                           <span class="author"> -Bhanu Prakash Pebbeti, Sai Manoj Akondi </span></h3>
@@ -198,7 +193,7 @@ li{
                         </ul> 
                       </div>
                      </li> 
-                      <li class="sgLi">
+                      <li class="col-lg-6 col-sm-12 sgLi">
                         <div class="box">
                        <h3>Auto contouring of HaN organs(Research Project)<br>
                         <span class="author">-Goutham P, Singam Sai Bala Subrahmanyam</span> </h3>
@@ -207,7 +202,11 @@ li{
                        </ul>
                       </div>
                      </li>
-                      <li class="sgLi">
+                      
+                    </div>
+                    <div class="row">
+                      
+                      <li class="col-lg-6 col-sm-12 sgLi">
                         <div class="box">
                        <h3>Automated DL-based technique for Datasets Cleaning (Research Project)<br>
                         <span class="author"> -Bhanu Prakash Pebbeti, Sai manoj Akondi  </span></h3>
@@ -217,90 +216,116 @@ li{
                        </ul>
                       </div>
                      </li>
-                      <li class="sgLi">
+                     <li class="col-lg-6 col-sm-12 sgLi">
+                      <div class="box">
+                     <h3>EfficientCenterDet A novel Self supervision boosted RoI
+                      proposal network for cervix type detection - (Research Project)<br>
+                      <span class="author">Sai Manoj Akondi, Akash Raut,
+                        Abdul Fathaah Shamsudddin</span></h3>
+                     <ul class="s2"><br><br>
+                      <li><a class="link" href="p4.html">GOTO PROJECT</a></li>
+                   
+                     </ul>
+                    </div>
+                   </li>
+                    
+                     </div>
+                     <div class="row">
+                      
+                        <li class="col-lg-6 col-sm-12 sgLi">
+                          <div class="box">
+                         <h3>Letter Detection using CentreNet<br>
+
+                         <ul class="s2"><br><br>
+                          <li><a class="link" href="p5.html">GOTO PROJECT</a></li>
+                       
+                         </ul>
+                        </div>
+                       </li>
+                       <li class="col-lg-6 col-sm-12 sgLi">
                         <div class="box">
-                       <h3>EfficientCenterDet A novel Self supervision boosted RoI proposal network for cervix type detection - (Research Project)<br>
-                        <span class="author"> - Sai Manoj Akondi, Akash Raut, Abdul Fathaah Shamsudddin</span></h3>
-                       <ol class="s3"><br><br>
-                        <li><a class="link" href="p4.html">GOTO PROJECT</a></li>
-                       </ol>
-                      </div>
-                     </li> 
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>Letter Detection using CentreNet</h3>
-                       <ol class="s4"><br><br>
+                       <h3>Thoracic organs at risk Segmentation - (Research project)<br>
+                        <span class="author"> -Seenia Francis</span></h3>
+                       <ul class="s2"><br><br>
                         <li><a class="link" href="p5.html">GOTO PROJECT</a></li>
-                       </ol>
+                     
+                       </ul>
                       </div>
                      </li>
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>Thoracic organs at risk Segmentation - ( Research project)<br> 
-                        <span class="author">-​Seenia Francis</span></h3>
-                       <ol class="s5"><br><br>
-                        <li><a class="link" href="p5.html">GOTO PROJECT</a></li>
-                       </ol>
-                      </div>
-                     </li>
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>Text Simplification<br>
-                        - Vimal rajesh, Hemanth </h3>
-                        <a class="link" href="p5.html">GOTO PROJECT</a>
-                      </div>
-                     </li>
-                      <li class="sgLi">
+                     
+                     </div>
+                     <div class="row">
+                      
+                        <li class="col-lg-6 col-sm-12 sgLi">
+                          <div class="box">
+                         <h3>Text Simplification<br>
+                          <span class="author">- Vimal rajesh, Hemanth</span></h3>
+                         <ul class="s2"><br><br>
+                          <li><a class="link" href="p5.html">GOTO PROJECT</a></li>
+                       
+                         </ul>
+                        </div>
+                       </li>
+                       <li class="col-lg-6 col-sm-12 sgLi">
                         <div class="box">
                        <h3>Sentiment-Extraction-from-tweets(Kaggle Competition)<br>
-                        <span class="author">-Sai Manoj Akondi </span></h3>
-                        <a class="link" href="p5.html">GOTO PROJECT</a>
-                      </div>
-                     </li>  
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>Text Simplification <br>
-                        <span class="author">- Vimal rajesh, Hemanth</span></h3>
-                        <a class="link" href="p5.html">GOTO PROJECT</a>
-                      </div>
-                     </li>  
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>Sentiment-Extraction-from-tweets(Kaggle Competition)<br><span class="author">-Sai Manoj Akondi</span></h3>
-                       <ol class="s9"><br><br>
+                        <span class="author"> -Sai Manoj Akondi </span></h3>
+                       <ul class="s2"><br><br>
                         <li><a class="link" href="p5.html">GOTO PROJECT</a></li>
-                       </ol>
+                     
+                       </ul>
                       </div>
-                     </li>  
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>Logo Generation<br>&nbsp;<span class="author">- Gokul Prasad</span></h3><br><br>
-                       <a class="link" href="p5.html">GOTO PROJECT</a>
-                      </div>
-                     </li>  
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>AI based Image Compression
-                         <br><span class="author">- Sidharth Cp</span>
-                       </h3>
-                       <br><br>
-                        <a class="link" href="p6.html">GOTO PROJECT</a>
+                     </li>
+                     
+                     </div>
+                     <div class="row">
+                      
+                        <li class="col-lg-6 col-sm-12 sgLi">
+                          <div class="box">
+                         <h3>Logo Generation<br>
+                          <span class="author"> - Gokul Prasad </span></h3>
+                         <ul class="s2"><br><br>
+                          <li><a class="link" href="p5.html">GOTO PROJECT</a></li>
                        
-                      </div>
-                     </li>  
-                      <li class="sgLi">
-                        <div class="box">
-                       <h3>AI Playing TIC TAC TOE<br><span class="author">- Amal Prakash </span></h3><br><br>
-                       <a class="link" href="p6.html">GOTO PROJECT</a>
+                         </ul>
                         </div>
-                     </li>  
-                      <li class="sgLi">
+                       </li>
+                       <li class="col-lg-6 col-sm-12 sgLi">
                         <div class="box">
-                       <h3>Image-to-Image Translation <br><span class="author">- Shakti Shubhankar Mahal </span></h3><br><br>
-                       <a class="link" href="p6.html">GOTO PROJECT</a>
+                       <h3>AI based Image Compression<br>
+                        <span class="author"> - Sidharth Cp </span></h3>
+                       <ul class="s2"><br><br>
+                        <li><a class="link" href="p6.html">GOTO PROJECT</a></li>
+                     
+                      
                       </div>
-                    </li>
+                     </li>
+                    
+                     </div>
+                     <div class="row">
+                      
+                        <li class="col-lg-6 col-sm-12 sgLi">
+                          <div class="box">
+                         <h3>AI Playing TIC TAC TOE<br>
+                          <span class="author"> - Amal Prakash </span></h3>
+                         <ul class="s2"><br><br>
+                          <li><a class="link" href="p6.html">GOTO PROJECT</a></li>
+                       
+                         
+                        </div>
+                       </li>
+                       <li class="col-lg-6 col-sm-12 sgLi">
+                        <div class="box">
+                       <h3>Image-to-Image Translation<br>
+                        <span class="author"> - Shakti Shubhankar Mahal</span></h3>
+                       <ul class="s2"><br><br>
+                        <li><a class="link" href="p6.html">GOTO PROJECT</a></li>
+                     
+                       </ul>
                       </div>
+                     </li>
+                     </ul>
+                     </div>
                     
             </div>
 
@@ -308,4 +333,7 @@ li{
     </div>
     
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
