@@ -1,9 +1,9 @@
 <?php 
-$user = "user_name";  
-$password = "password";  
-$host = "host_name";  
-$dbase = "database_name";  
-$table = "table_name";  
+$user = "root";  
+$password = "WEB@12#$";  
+$host = "cccwebserver";  
+$dbase = "mailinglist";  
+$table = "users";  
 $email= $_POST['email']; 
 
 $dbc= mysqli_connect($host,$user,$password, $dbase)  
