@@ -1,7 +1,7 @@
 <?php 
 $user = "root";  
 $password = "WEB@12#$";  
-$host = "cccwebserver";  
+$host = "aiclub.nitc.ac.in";  
 $dbase = "mailinglist";  
 $table = "users";  
 $email= $_POST['email']; 
