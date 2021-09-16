@@ -1,0 +1,66 @@
+body{
+  background-color: whitesmoke;
+}
+.heading{
+    text-align: center;
+
+}
+
+.bt{
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding:10px;
+  font-family: "Roberta";
+  width:200px;
+  font-size:20px;
+}
+
+.sub{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:20px;
+}
+.bod{
+    width:100%;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+
+.paging-nav {
+    text-align: right;
+    padding-top: 2px;
+  }
+  
+  .paging-nav a {
+    margin: auto 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 7px;
+    background: #91b9e6;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .paging-nav .selected-page {
+    background: #187ed5;
+    font-weight: bold;
+  }
+  
+  .paging-nav,
+  #tableData {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .foot{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+
+  
+ 
